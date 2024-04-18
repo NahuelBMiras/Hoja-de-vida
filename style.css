@@ -12,13 +12,13 @@ header {
   text-align: center;
 }
 
-#nombre {
+#title {
   background-color: rgba(214, 221, 230, 255);
   color: rgba(4, 42, 97, 255);
   font-size: 1.4rem;
 }
 
-#presentacion {
+#presentation {
   background-color: rgba(239, 239, 239, 255);
 }
 
@@ -32,7 +32,7 @@ footer h3 {
   color: rgba(0, 18, 71, 255);
 }
 
-.subtitulo {
+.categoriesTitle {
   background-color: rgba(239, 239, 239, 255);
   width: 40%;
   text-align: center;
@@ -42,16 +42,16 @@ article {
   margin: 1.5em 0;
 }
 
-.puntos {
+.categories {
   text-align: center;
   margin-left: 60em;
 }
 
-.punto {
+.category {
   color: rgba(42, 74, 112, 255);
 }
 
-.puntos ul {
+.categories ul {
   text-align: center;
   list-style: none;
 }
@@ -73,4 +73,16 @@ footer i {
 
 footer a {
   color: rgba(116, 132, 158, 255);
+}
+
+form {
+  padding: 0.9em;
+}
+
+fieldset {
+  margin: 0 auto;
+  width: 90%;
+}
+legend {
+  margin: 1em 5em;
 }
