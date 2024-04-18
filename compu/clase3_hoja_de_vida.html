@@ -11,11 +11,11 @@
 
 <body>
     <header>
-        <div id="title">
+        <div id="header__title">
             <h1>Basail Miras Nahuel</h1>
         </div>
         <hr />
-        <div id="presentation">
+        <div id="header__presentation">
             <h2>PRESENTACIÓN:</h2>
             <p>
                 Soy un estudiante de Bioquímica en la Facultad de Farmacia y Bioquímica
@@ -30,17 +30,17 @@
 
     <main>
         <article>
-            <section class="categoriesTitle">
-                <h2>ESTUDIOS</h2>
+            <section class="main__section-title ">
+                <h2 class="main__section-title-text">ESTUDIOS</h2>
             </section>
-            <section class="categories">
+            <section class="main__categories">
                 <ul>
                     <li>
-                        <h3 class="category">FACULTAD DE FARMACIA Y BIOQUÍMICA(UBA)</h3>
+                        <h3 class="main__category-subtitle">FACULTAD DE FARMACIA Y BIOQUÍMICA(UBA)</h3>
                         <p>2022 - actualidad.</p>
                     </li>
                     <li>
-                        <h3 class="category">ESCUELA SECUNDARIA N°12 “JORGE LUIS BORGES”</h3>
+                        <h3 class="main__category-subtitle">ESCUELA SECUNDARIA N°12 “JORGE LUIS BORGES”</h3>
                         <p>2014-2019 <br />Bachiller con orientación en Economía.</p>
                     </li>
                 </ul>
@@ -48,34 +48,34 @@
             <hr />
         </article>
         <article>
-            <section class="categoriesTitle">
-                <h2>CURSOS</h2>
+            <section class="main__section-title ">
+                <h2 class="main__section-title-text">CURSOS</h2>
             </section>
-            <section class="categories">
+            <section class="main__categories">
                 <ul>
                     <li>
-                        <h3 class="category">ARGENTINA PROGRAMA 4.0 - ITMASTER</h3>
+                        <h3 class="main__category-subtitle">ARGENTINA PROGRAMA 4.0 - ITMASTER</h3>
                         <p>
                             2023-2023 <br />
                             Tramo 2: HTML y CSS, Introducción al Front End
                         </p>
                     </li>
                     <li>
-                        <h3 class="category">ARGENTINA PROGRAMA 4.0 - ITMASTER</h3>
+                        <h3 class="main__category-subtitle">ARGENTINA PROGRAMA 4.0 - ITMASTER</h3>
                         <p>
                             2023-2023 <br />
                             Tramo 3: Programación Front-End
                         </p>
                     </li>
                     <li>
-                        <h3 class="category">BA MULTIPLICA 2.0</h3>
+                        <h3 class="main__category-subtitle">BA MULTIPLICA 2.0</h3>
                         <p>
                             2023-2023 <br />
                             Programación Web Inicial: Front-End
                         </p>
                     </li>
                     <li>
-                        <h3 class="category">ARGENTINA PROGRAMA 4.0 - UNSA</h3>
+                        <h3 class="main__category-subtitle">ARGENTINA PROGRAMA 4.0 - UNSA</h3>
                         <p>
                             2023-2023 <br />
                             Python y bases de para Machine Learning
@@ -86,16 +86,16 @@
             <hr />
         </article>
         <article>
-            <section class="categoriesTitle">
-                <h2>IDIOMA</h2>
+            <section class="main__section-title ">
+                <h2 class="main__section-title-text">IDIOMA</h2>
             </section>
-            <section id="language" class="categories">
+            <section id="language" class="main__categories">
                 <ul>
                     <li>
-                        <h3 class="category">Español nativo.</h3>
+                        <h3 class="main__category-subtitle">Español nativo.</h3>
                     </li>
                     <li>
-                        <h3 class="category">Nivel Intermedio de Inglés:</h3>
+                        <h3 class="main__category-subtitle">Nivel Intermedio de Inglés:</h3>
                         <ul>
                             <li>
                                 Capacidad para comprender conversaciones y textos en inglés.
@@ -112,38 +112,38 @@
     </main>
 
     <footer>
-        <nav>
-            <h3>Medios de contacto:</h3>
+        <nav class="footer__nav">
+            <h3 class="footer__nav-title-text">Medios de contacto:</h3>
             <ul>
                 <li>
-                    <a href="tel:">
-                        <i class="fa-solid fa-square-phone"></i>
+                    <a href="tel:" class="footer__nav-link">
+                        <i class="footer__nav-icon fa-solid fa-square-phone"></i>
                         111111111
                     </a>
                 </li>
                 <li>
-                    <a href="mailto:">
-                        <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:" class="footer__nav-link">
+                        <i class="footer__nav-icon fa-solid fa-envelope"></i>
                         @gmail.com
                     </a>
                 </li>
-                <li><a href="" target="_blank">
-                        <i class="fa-brands fa-linkedin"></i>
+                <li><a href="" target="_blank" class="footer__nav-link">
+                        <i class="footer__nav-icon fa-brands fa-linkedin"></i>
                         linkedin
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/NahuelBMiras" target="_blank">
-                        <i class="fa-brands fa-square-github"></i>
+                    <a href="https://github.com/NahuelBMiras" target="_blank" class="footer__nav-link">
+                        <i class="footer__nav-icon fa-brands fa-square-github"></i>
                         github
                     </a>
                 </li>
             </ul>
         </nav>
         <hr>
-        <form>
-            <fieldset>
-                <legend>Inquiry</legend>
+        <form class="footer__form">
+            <fieldset class="footer__form-fieldset">
+                <legend class="footer__form-legend">Inquiry</legend>
                 <label for="Name">Name:
                     <input id="Name" type="text" name="Name" placeholder="name">
                 </label><br>

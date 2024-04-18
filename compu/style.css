@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  color: rgba(74, 91, 117, 255);
+  margin: 0 10em;
+}
+
+body {
+  height: 100svh;
+}
+
+/*css header*/
+
+header {
+  text-align: center;
+}
+
+#header__title {
+  background-color: rgba(214, 221, 230, 255);
+  color: rgba(4, 42, 97, 255);
+  font-size: 1.4rem;
+}
+
+#header__presentation {
+  background-color: rgba(239, 239, 239, 255);
+}
+
+/* css main */
+
+main {
+  background-color: (255, 255, 255, 255);
+  margin: 1em 0.1em;
+}
+
+main article {
+  margin: 1.5em 0;
+}
+
+.main__section-title {
+  background-color: rgba(220, 220, 220, 1);
+  width: 40%;
+  text-align: center;
+  margin-left: 1em;
+  padding: 0.5em;
+}
+
+.main__section-title-text {
+  color: rgba(0, 18, 71, 255);
+}
+
+.main__categories {
+  background-color: rgba(239, 239, 239, 255);
+  padding: 1.3em 0;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+.main__categories {
+  text-align: center;
+  margin-left: 60em;
+}
+
+.main__categories ul {
+  text-align: center;
+  list-style: none;
+}
+
+.main__category-subtitle {
+  color: rgba(42, 74, 112, 255);
+}
+
+/*css footer*/
+
+footer {
+  background-color: rgba(239, 239, 239, 255);
+  color: rgba(116, 132, 158, 255);
+  text-align: center;
+}
+
+.footer__nav-title-text {
+  color: rgba(0, 18, 71, 255);
+}
+
+.footer__nav-link {
+  color: rgba(116, 132, 158, 255);
+}
+
+.footer__nav-icon {
+  color: rgba(0, 34, 83, 255);
+}
+
+.footer__form {
+  padding: 0.9em;
+}
+
+.footer__form-fieldset {
+  margin: 0 auto;
+  width: 90%;
+}
+.footer__form-legend {
+  margin: 1em 5em;
+}
